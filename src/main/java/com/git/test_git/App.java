@@ -6,6 +6,7 @@ package com.git.test_git;
  */
 public class App 
 {
+
 	void m1(){
 		System.out.println("m1-1");
 	}
@@ -14,8 +15,12 @@ public class App
 		System.out.println("m2-1");
 	}
 
-	
-	public static void main( String[] args )
+	void f1(){
+		System.out.println("f1-1");
+	}
+
+    public static void main( String[] args )
+
     {
     	int master = 10;
     	
