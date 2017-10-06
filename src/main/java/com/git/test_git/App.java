@@ -6,6 +6,10 @@ package com.git.test_git;
  */
 public class App 
 {
+	void f1(){
+		System.out.println("f1-1");
+	}
+
     public static void main( String[] args )
     {
     	int master = 10;
